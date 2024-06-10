@@ -61,7 +61,7 @@ function Notes({ notes, group, mobileGroupswitch }) {
 			{/* notes */}
 			<div className='text-black bg-palatte-notes flex flex-col overflow-auto flex-1'>
 				{notes.map(note => (<div key={note.id} className='w-full my-7 flex'>
-					<div className='w-1/4 sm:w-1/5 flex flex-col items-center pt-1'>
+					<div className='w-1/4 sm:w-1/5 flex flex-col items-center sm:pt-1'>
 						<p>{note.date}</p>
 						<p>{note.time}</p>
 					</div>
